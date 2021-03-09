@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #b2bec3;
+  }
+  
+  
+  h1 {
+    color: #6c7ac9;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  .pagination a {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #6c7ac9;
+    color: #6c7ac9;
+  }
+  
+  .pagination__link {
+    font-weight: bold;
+  }
+  
+  .pagination__link--active a {
+    color: #fff;
+    background: #6c7ac9;
+  }
+  
+  .pagination__link--disabled a {
+    color: rgb(198, 197, 202);
+    border: 1px solid rgb(198, 197, 202);
+  }
+  
+  .card{
+      margin: auto;
+      width: 50%;
+      margin-bottom: 15px;
+      background-color: #81ecec;
+      padding: 5px;
+  }
+  table{
+      margin: auto;
+  }
+  input{
+      width: 140px;
+      height: 10px;
+      text-align: center;
+  }

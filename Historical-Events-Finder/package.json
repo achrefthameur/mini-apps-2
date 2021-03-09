@@ -1,0 +1,27 @@
+{
+  "name": "historical-events-finder",
+  "version": "1.0.0",
+  "description": "Historical Events Finder From Json Data",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx json-server --watch ./DB/Data.json --port 3004 --static ./public",
+    "build": "npx webpack --watch"
+  },
+  "author": "Achref Thameur",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "json-server": "^0.16.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-paginate": "^7.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0"
+  }
+}
